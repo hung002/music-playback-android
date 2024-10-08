@@ -16,7 +16,7 @@ An Android application utilizing Spotify’s API to aggregate and present user l
 ## Installation and Setup
 1. Clone the repository:
     ```bash
-    git clone https://github.com/hung002/music-play-back-android.git
+    git clone https://github.com/hung002/music-playback-android.git
     ```
 2. Open the project in Android Studio:
    - Open Android Studio and navigate to **File -> Open**, then select the cloned project directory.
