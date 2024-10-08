@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_wrapped">
+
+    <fragment
+        android:id="@+id/navigation_wrapped"
+        android:name="com.example.echofusion.ui.wrapped.WrappedFragment"
+        android:label="@string/title_wrapped"
+        tools:layout="@layout/fragment_wrapped" />
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.example.echofusion.ui.account.AccountFragment"
+        android:label="@string/title_account"
+        tools:layout="@layout/fragment_account" >
+
+        <action
+            android:id="@+id/action_navigation_account_to_navigation_past_wrapped"
+            app:destination="@id/navigation_past_wrapped" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_past_wrapped"
+        android:name="com.example.echofusion.ui.account.PastWrappedFragment"
+        android:label="@string/title_past_wrapped"
+        tools:layout="@layout/fragment_past_wrapped" >
+
+        <action
+            android:id="@+id/action_navigation_past_wrapped_to_navigation_account"
+            app:destination="@id/navigation_account" />
+
+    </fragment>
+</navigation>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "532196505153",
+    "project_id": "echofusion-e1ad5",
+    "storage_bucket": "echofusion-e1ad5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532196505153:android:ade6c91226b800f8bf78c0",
+        "android_client_info": {
+          "package_name": "com.example.echofusion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrFY0NoJVmAVkuVcZv48VKRYkdBBEjDyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

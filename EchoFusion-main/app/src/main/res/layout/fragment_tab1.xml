@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.wrapped.tabs.Tab1"
+    android:background="@drawable/tab1">
+
+    <LinearLayout
+        android:id="@+id/horizontalLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <!--images below!-->
+        <LinearLayout
+            android:id="@+id/verticalLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/song_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play Button"
+                tools:layout_editor_absoluteX="273dp"
+                tools:layout_editor_absoluteY="667dp" />
+
+            <ImageView
+                android:id="@+id/album1"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageView
+                android:id="@+id/album2"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageView
+                android:id="@+id/album3"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageView
+                android:id="@+id/album4"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageView
+                android:id="@+id/album5"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+        </LinearLayout>
+
+
+        <!-- text below!-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fillerText"
+                android:text="YOUR TOP 5 SONGS"
+                android:textSize="25dp"
+                android:fontFamily="sans-serif-black"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/song1"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:textColor="@color/white"
+                android:text="SONG1"
+                />
+
+
+
+            <TextView
+                android:id="@+id/song2"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:text="SONG2"
+                android:textColor="@color/white"
+                :layout_constraintStart_toStartOf="@id/album2"
+                />
+
+            <TextView
+                android:id="@+id/song3"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:text="SONG3"
+                android:textColor="@color/white"
+                :layout_constraintStart_toStartOf="@id/album3"
+                />
+
+            <TextView
+                android:id="@+id/song4"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:text="SONG4"
+                android:textColor="@color/white"
+                :layout_constraintStart_toStartOf="@id/album4"
+                />
+
+            <TextView
+                android:id="@+id/song5"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:text="SONG5"
+                android:textColor="@color/white"
+                :layout_constraintStart_toStartOf="@id/album5"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

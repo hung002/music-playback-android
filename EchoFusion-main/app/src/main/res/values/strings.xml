@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EchoFusion</string>
+    <string name="title_wrapped">Wrapped</string>
+    <string name="title_game">Game</string>
+    <string name="title_account">Account</string>
+    <string name="title_past_wrapped">Past Wrapped</string>
+    <string name="hello_blank_fragment">This is a fragment</string>
+</resources>
